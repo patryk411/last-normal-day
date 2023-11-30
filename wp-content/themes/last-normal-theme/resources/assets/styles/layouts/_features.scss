@@ -1,0 +1,94 @@
+&__features {
+    padding: 200px 0;
+    background-color: #fff;
+    &__content {
+        margin-bottom: 200px;
+        &__right {
+            &__text {
+                .section-title {
+                    margin-bottom: 100px;
+                }
+            }
+
+            &__main-box {
+                &__box {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: start;
+                    justify-content: start;
+                    margin-bottom: 70px;
+
+                    i {
+                        font-size: 2.8em;
+                        margin-right: 60px;
+                        color: $theme-color;
+                    }
+
+                    &__single {
+                        font-family: $pop;
+
+                        &--heading {
+                            font-size: 1.6em;
+                            color: $section-text;
+                            font-weight: bold;
+                            text-transform: capitalize;
+                        }
+
+                        &--text {
+                            font-size: 1.6em;
+                            color: #8d8698;
+                            width: 70%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__proggress {
+        &__left {
+            padding: 0 60px;
+            .section-title {
+                margin-bottom: 100px;
+            }
+
+            &__section {
+                .progress-box {
+                    margin-bottom: 60px;
+                    
+                    .proggress-text-box {
+                        font-family: $pop;
+                        .proggress-title {
+                            font-size: 1.8em;
+                            color: $section-text;
+                            margin-bottom: 15px;
+                            font-weight: bold;
+                        }
+                        
+                        .proggress-text {
+                            color: #8d8698;
+                            font-size: 1.6em;
+                            margin-bottom: 0;
+                            width: 70%;
+                        }
+                        
+                        .proggress-value {
+                            font-size: 1.8em;
+                            color: $section-text;
+                            font-weight: bold;
+                            text-align: right;
+                        }
+                    }
+
+                    .progress {
+                        height: 5px;
+                        .progress-bar {
+                            background-color: $theme-color;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+$theme-color: #7d1eff;
+$theme-text: #aca3ba;
+$section-text: #3f3849;
+$pop: 'Poppins', sans-serif;
+
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;

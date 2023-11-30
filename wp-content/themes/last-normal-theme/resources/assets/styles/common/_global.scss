@@ -1,0 +1,27 @@
+.section-subtitle {
+    color: $theme-text;
+    font-size: 1.5em;
+    font-family: $pop;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    color: #3f3849;
+    font-size: 4.8em;
+    font-family: $pop;
+    font-weight: 900;
+    margin-bottom: 40px;
+
+    .section-span {
+        color: $theme-color;
+    }
+}
+
+.section-text {
+    font-family: $pop;
+    font-size: 1.8em;
+    color: #3f3849;
+    font-weight: 400;
+}

@@ -1,0 +1,62 @@
+.header {
+    position: relative;
+    overflow: hidden;
+    font-family: $pop;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    &__content {
+        &__text {
+            color: #fff;
+            &--header {
+                font-size: 9.2em;
+                text-transform: capitalize;
+                font-weight: 700;
+                margin-bottom: 70px;
+                line-height: 1.1;
+                .span-header {
+                    color: $theme-color;
+                }
+            }
+
+            &--subhead {
+                font-size: 1.8em;
+                text-transform: uppercase;
+                font-weight: 600;
+                margin-bottom: 30px;
+            }
+
+            &--text {
+                font-size: 1.6em;
+                color: #b2aabf;
+                width: 75%;
+            }
+        }
+    }
+
+    &__imgs {
+        
+        .circle-one {
+            position: absolute;
+            top: -18%;
+            left: -12%;
+            z-index: -1;
+        }
+        
+        .circle-two {
+            position: absolute;
+            right: -17%;
+            bottom: -35%;
+            scale: 3;
+        }
+
+        .smart-watch {
+            position: absolute;
+            top: 10%;
+            right: 7%;
+        }
+    }
+}
