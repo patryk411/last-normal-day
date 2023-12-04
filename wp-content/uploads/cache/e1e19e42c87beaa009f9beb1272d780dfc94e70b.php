@@ -40,7 +40,7 @@
         </div>
     </section>
 
-    <div class="main__features">
+    <section class="main__features">
         <div class="container">
             <div class="main__features__content">
                 <div class="row m-0 p-0">
@@ -128,6 +128,68 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="main__introduction">
+        <div class="container">
+            <div class="main__introduction__content">
+                <div class="main__introduction__content__text">
+                    <h2 class="section-subtitle">how it works</h2>
+                    <h3 class="section-title"><span class="section-span">See for yourself</span><br>
+                    Quick video introduction
+                    </h3>
+                    <p class="section-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae odales lectus, non ultrices nisi. In varius, leo non gravida.
+                    </p>
+                </div>
+                <div class="main__introduction__content__video">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/introduction-img.jpg" />
+                    <a href="https://www.youtube.com/?hl=pl&gl=PL" class="main__introduction__content__video__btn">
+                        <i class="fa-solid fa-play"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main__product">
+        <div class="container">
+            <div class="main__product__content">
+                <div class="main__product__content__text">
+                    <h2 class="section-subtitle">adjustable straps</h2>
+                    <h3 class="section-title">Choose the best <br> color for your activity</h3>
+                </div>
+
+                <div class="main__product__content__boxes">
+                    <div class="row m-0 p-0">
+                        <div class="main__product__content__boxes__box col-lg-4">
+                            <h5 class="main__product__content__boxes__box--heading">wirst band</h5>
+                            <p class="main__product__content__boxes__box--title">mint green</p>
+                            <p class="main__product__content__boxes__box--cost">$25.50</p>
+                            <div class="main__product__content__boxes__box__img">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/watch-green.jpg" />
+                            </div>
+                        </div>
+                        <div class="main__product__content__boxes__box col-lg-4">
+                            <h5 class="main__product__content__boxes__box--heading">wirst band</h5>
+                            <p class="main__product__content__boxes__box--title">purple berry</p>
+                            <p class="main__product__content__boxes__box--cost">$25.50</p>
+                            <div class="main__product__content__boxes__box__img">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/watch-purpl.jpg" />
+                            </div>
+                        </div>
+                        <div class="main__product__content__boxes__box col-lg-4">
+                            <h5 class="main__product__content__boxes__box--heading">wirst band</h5>
+                            <p class="main__product__content__boxes__box--title">golden sunset</p>
+                            <p class="main__product__content__boxes__box--cost">$25.50</p>
+                            <div class="main__product__content__boxes__box__img">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/watch-orange.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </main>
